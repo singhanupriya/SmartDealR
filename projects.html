@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<title>smartdeal_project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style_w3.css">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+<body>
+
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a   class="navbar-brand" href="#" style="padding-left:40px;padding-right:40px;font-size:20px;">SMARTDEALR</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li  style="padding-left:40px;padding-right:40px;font-size:20px;"><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
+        
+        <li><a href="about.html" style="padding-left:40px;padding-right:40px;font-size:20px;"><span class="glyphicon glyphicon-search"></span>&nbsp;About</a></li>
+        <li><a href="service.html" style="padding-left:40px;padding-right:40px;font-size:20px;"><span class="glyphicon glyphicon-wrench"></span>&nbsp;Services</a></li>
+		 <li class="active"><a href="projects.html" style="padding-left:40px;padding-right:40px;font-size:20px;"><span class="glyphicon glyphicon-list"></span>&nbsp;Projects</a></li>
+		  <li><a href="#" style="padding-left:40px;padding-right:40px;font-size:20px;"><span class="glyphicon glyphicon-calendar"></span>&nbsp;Events</a></li>
+		   
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+
+<div class="w3-container">
+  
+  <h2 style="text-align:center">Click on the images below to get details of the projects:</h2>
+</div>
+<br>
+<div class="w3-row-padding">
+  <div class="w3-col s3 w3-container">
+  <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Nature');">
+    <img src="img/one.jpg" alt="Nature" style="width:100%"><p>Kolte Patil</p>
+  </a>
+  
+  </div>
+  <div class="w3-col s3 w3-container">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Fjords');">
+      <img src="img/2.jpg" alt="Fjords" style="width:100%"><p>Punchshil Tower</p>
+    </a>
+  </div>
+  <div class="w3-col s3 w3-container">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Mountains');">
+      <img src="img/three.jpg" alt="Mountains" style="width:100%"><p>xyz</p>
+    </a>
+  </div>
+  <div class="w3-col s3 w3-container">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Lights');">
+      <img src="img/four.jpg" alt="Lights" style="width:100%"><p>xyz</p>
+    </a>
+  </div>
+</div><br>
+
+<div id="Nature" class="picture w3-display-container" style="display:none">
+  <img src="img/one.jpg" alt="Nature" style="width:100%">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Kolte Patil</div>
+   <p style="text-align:center;">
+  
+  Company Name: Kolte Patil<br>
+Project Name: Life Republic ,Hinjewadi  Pune<br>
+Project Detail: Spread over 45 acre with Residential building<br> 
+Work Description:
+Conventional & Mivan Shuttering: Rs.80 Lakhs orde value<br>
+</p>
+  
+  
+</div>
+
+<div id="Fjords" class="picture w3-display-container" style="display:none">
+  <img src="img/2.jpg" alt="Fjords" style="width:100%">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Punchshil Tower</div>
+ <p style="text-align:center;">
+  Company Name: Punchshil<br>
+Project Name: Punchshil Tower ,Kharadi Pune<br>
+Project Detail: Spread over 55 acre with Residential building<br>
+Work Description:
+Shuttering Work: Rs.40 Lakhs orde value<br>
+</p>
+</div>
+
+<div id="Mountains" class="picture w3-display-container" style="display:none">
+  <img src="img/three.jpg" alt="Mountains" style="width:100%">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Mountains</div>
+</div>
+
+<div id="Lights" class="picture w3-display-container" style="display:none">
+  <img src="img/four.jpg" alt="Lights" style="width:100%">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Northern Lights</div>
+</div>
+
+<br><br>
+
+
+
+<div class="w3-row-padding">
+  <div class="w3-col s3 w3-container">
+  <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Nature1');">
+    <img src="img/five.jpg" alt="Nature" style="width:100%"><p>Xyz</p>
+  </a>
+  
+  </div>
+  <div class="w3-col s3 w3-container">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Fjords1');">
+      <img src="img/six.jpg" alt="Fjords" style="width:100%"><p>Hiranandani Communities</p>
+    </a>
+  </div>
+  <div class="w3-col s3 w3-container">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Mountains1');">
+      <img src="img/mahindra.png" alt="Mountains" style="width:100%"><p>Mahindra Antheia</p>
+    </a>
+  </div>
+  <div class="w3-col s3 w3-container">
+    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Lights1');">
+      <img src="img/metro.png" alt="Lights" style="width:100%"><p>Pune Metro</p>
+    </a>
+  </div>
+</div><br>
+
+<div id="Nature1" class="picture w3-display-container" style="display:none">
+  <img src="img/five.jpg" alt="Nature" style="width:100%">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Nature</div>
+  <p>hey</p>
+</div>
+
+<div id="Fjords1" class="picture w3-display-container" style="display:none">
+  <img src="img/six.jpg" alt="Fjords" style="width:100%">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Hiranandani Communities</div>
+  
+  <p style="text-align:center">Company Name: Hiranandani Communities<br>
+Project Name: Hiranandani Fortune City, Panvel , Navi Mumbai<br>
+Project Detail: Spread over 500 acre with Residential & Commercial building<br>
+Work Description:
+Tiles Work: Rs.80 Lakhs order value, Fire fighting Work: Rs.50  Lakhs order value, Plumbing Work: Rs.22 Lakhs order value<br>
+</p>
+  
+  
+</div>
+
+<div id="Mountains1" class="picture w3-display-container" style="display:none">
+  <img src="img/mahindra.png" alt="Mountains" style="width:100%">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Mahindra Antheia</div>
+  <p>
+  Electrical work</p>
+</div>
+
+<div id="Lights1" class="picture w3-display-container" style="display:none">
+  <img src="img/metro.png" alt="Lights" style="width:100%">
+  <span onclick="this.parentElement.style.display='none'" 
+  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Northern Lights</div>
+</div>
+
+
+
+<script>
+function openImg(imgName) {
+  var i, x;
+  x = document.getElementsByClassName("picture");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  document.getElementById(imgName).style.display = "block";
+}
+</script>
+
+</body>
+</html> 
